@@ -8,7 +8,7 @@ CV_DATA = {
         'linkedin': 'linkedin.com/in/ayush-kumar-singh-17978721b',
         'naukri': 'Profile Link',
         'title': 'B.Tech CSE Student & Data Analytics Enthusiast',
-        'profile_image': '\static\image\AKS.jpg'
+        'profile_image': '/static/image/AKS.jpg'
     },
     
     'summary': """Motivated and detail-oriented B.Tech Computer Science & Engineering student (2021—2025) with
@@ -106,7 +106,7 @@ CV_DATA = {
         },
         {
             'id': 3,
-            'name': 'Advanced Excel Certification',
+            'name': 'web development Certification',
             'provider': 'Internshala',
             'year': '2023',
             'score': 'Certified',
@@ -231,3 +231,4 @@ CV_DATA = {
     ]
 
 }
+
