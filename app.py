@@ -3,7 +3,7 @@ import json
 import os
 from data.cv_data import CV_DATA
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 @app.route('/')
 def home():
