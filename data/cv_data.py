@@ -114,7 +114,7 @@ CV_DATA = {
             'cert_link': 'https://trainings.internshala.com/s/v/3149938/acf31a54',
             'cert_no': 'a3fvrktc62_',
             'duration': 'Online Course',
-            'image': '/static/image/web development.png',
+            'image': '/static/image/Web Development.png',
             'modules': ['HTML', 'CSS', 'Bootstrap', 'DBMS', 'PHP', 'JS', 'React']
         },
         {
@@ -231,4 +231,5 @@ CV_DATA = {
     ]
 
 }
+
 
