@@ -8,7 +8,7 @@ CV_DATA = {
         'linkedin': 'linkedin.com/in/ayush-kumar-singh-17978721b',
         'naukri': 'Profile Link',
         'title': 'B.Tech CSE Student & Data Analytics Enthusiast',
-        'profile_image': '/static/image/AKS.jpg'
+        'profile_image': '\static\image\AKS.jpg'
     },
     
     'summary': """Motivated and detail-oriented B.Tech Computer Science & Engineering student (2021—2025) with
@@ -229,4 +229,5 @@ CV_DATA = {
             'link': '#'
         }
     ]
+
 }
