@@ -15,6 +15,12 @@ CV_DATA = {
     expertise in Data Analytics, Machine Learning, and Sustainable Technologies. Skilled in analyzing
     datasets, building predictive models, and delivering actionable insights. Experienced in Python,
     SQL, Excel, and ML frameworks, with published research in sustainability and consumer behavior.""",
+    'summary1':"""I am a detail-oriented and curious learner with strong teamwork, leadership, and communication 
+    skills, proven through academic projects and extracurricular achievements. My interests lie in combining data
+    -driven insights with real-world applications, whether predicting IPL scores, analyzing market trends, or 
+    exploring sustainable solutions. I have completed multiple internships and certifications in Machine Learning, 
+    Data Science, and Web Development, and I am passionate about using technology to solve practical problems
+    while continuously learning and growing in the field of Al/ML.""",
     
     'projects': [
         {
@@ -231,5 +237,6 @@ CV_DATA = {
     ]
 
 }
+
 
 
