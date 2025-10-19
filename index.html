@@ -303,28 +303,40 @@
                 <div class="content-section fade-in">
                     <h2 class="section-title">Power BI Dashboards</h2>
                     <div class="dashboard-grid">
-                        {% for dashboard in data.powerbi_dashboards %}
+                        
+                        <!-- IPL Analytics Dashboard -->
                         <div class="dashboard-card">
-                            <img src="{{ dashboard.image }}" alt="{{ dashboard.title }}" class="dashboard-image">
+                            <div class="dashboard-image">
+                                <img src="static/image/dashboardimage.png" alt="IPL Analytics Dashboard">
+                            </div>
                             <div class="dashboard-content">
-                                <h3 class="dashboard-title">{{ dashboard.title }}</h3>
-                                <p>{{ dashboard.description }}</p>
-                                {% if dashboard.link != '#' %}
-                                <a href="{{ dashboard.link }}" target="_blank" class="dashboard-link">
-                                    <i class="fas fa-external-link-alt"></i> View Dashboard
+                                <h3 class="dashboard-title">IPL Analytics Dashboard</h3>
+                                <p>Player performance and match predictions</p>
+                                <a href="https://github.com/kali1706/Ipl_Data_analytics-" target="_blank" class="dashboard-link">
+                                    <i class="fas fa-external-link-alt"></i> View on GitHub
                                 </a>
-                                {% else %}
-                                <span class="dashboard-link" style="background: #ccc; cursor: not-allowed;">
-                                    <i class="fas fa-lock"></i> Coming Soon
-                                </span>
-                                {% endif %}
                             </div>
                         </div>
-                        {% endfor %}
+
+                        <!-- CO2 Emissions Analysis (Coming Soon) -->
+                        <div class="dashboard-card">
+                            <div class="dashboard-image">
+                                <i class="fas fa-leaf dashboard-icon"></i>
+                            </div>
+                            <div class="dashboard-content">
+                                <h3 class="dashboard-title">CO2 Emissions Analysis</h3>
+                                <p>Environmental data visualization</p>
+                                <span class="dashboard-link coming-soon">
+                                    <i class="fas fa-lock"></i> Coming Soon
+                                </span>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Certificates Section -->
         <section id="certificates" class="section">
